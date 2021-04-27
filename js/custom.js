@@ -46,5 +46,5 @@ $(function() {
   
   $(document).ready(function(){
   				$("a[rel='gallery']").colorbox();
-				$("#contact").colorbox({width:"500", height:"580", iframe:true});
+				$("#contact").colorbox({width:"300", height:"580", iframe:true});
 			});
