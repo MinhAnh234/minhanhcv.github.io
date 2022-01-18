@@ -45,8 +45,22 @@ blockquote, q {
 .clear {
 	clear:both;
 }
-
-
+li.listItem, .listItem li {
+	list-style: none !important;
+	float: none !important;
+	display: block !important;
+	padding-top:15px !important;
+	font-size: 15px !important; 
+	font-weight: bold !important;
+}
+.listItem li {
+	margin-left: 20px !important;
+	font-weight: normal !important;
+}
+.linkItem {
+	font-style:italic;
+	margin-left: 50px !important;
+}
 /* LAYOUT */
 /* ----------------------------------------- */
 
