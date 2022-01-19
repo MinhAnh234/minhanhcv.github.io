@@ -16,14 +16,29 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
+	
 	font-family: fangsong;
 	vertical-align: baseline;
+}
+#cboxPhoto {
+	width: 800px !important;
+	height: 800px !important;
+}
+#cboxNext{
+	left: 80px !important;
+}
+#cboxCurrent {
+	left: 136px !important;
 }
 :focus {
 	outline: 0;
 }
 body {
 	line-height: 1;
+}
+.entry_li {
+	margin-top:10px !important;
+	font-size: 14px !important;
 }
 /* tables still need 'cellspacing="0"' in the markup */
 table {
@@ -56,6 +71,9 @@ li.listItem, .listItem li {
 .listItem li {
 	margin-left: 20px !important;
 	font-weight: normal !important;
+}
+span.listItem {
+	font-weight: bold !important;
 }
 .linkItem {
 	font-style:italic;
